@@ -38,5 +38,8 @@ public:
     void addPassenger(const string& passengerName);
     void removePassenger(const string& passengerName);
 
+    void sellTicket(const string& passengerName);
+    void refundTicket(const string& passengerName);
+
     void printAirplaneInfo();
 };

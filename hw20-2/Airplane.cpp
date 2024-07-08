@@ -93,6 +93,16 @@ void Airplane::removePassenger(const string& passengerName)
     cout << "Passenger not found on this flight" << endl;
 }
 
+void Airplane::sellTicket(const string& passengerName)
+{
+    addPassenger(passengerName);
+}
+
+void Airplane::refundTicket(const string& passengerName)
+{
+    removePassenger(passengerName);
+}
+
 void Airplane::printAirplaneInfo()
 {
     cout << "Flight Number: " << flightNumber << endl;
