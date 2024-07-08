@@ -113,6 +113,7 @@ void Airplane::printAirplaneInfo()
     cout << "Available Seats: " << availableSeats << endl;
     cout << "Passengers: " << endl;
     for (const string& passenger : passengers) {
-        cout << "- " << passenger << endl << endl;
+        cout << "- " << passenger << endl;
     }
+    cout << endl;
 }

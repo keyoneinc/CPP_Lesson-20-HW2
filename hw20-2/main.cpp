@@ -13,7 +13,10 @@ int main() {
 
 	airplane.removePassenger("Danylo");
 
+	airplane.sellTicket("Kirill");
+
 	airplane.printAirplaneInfo();
+
 
 
 
